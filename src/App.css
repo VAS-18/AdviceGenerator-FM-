@@ -1,0 +1,123 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rem;
+  background-color: hsl(218, 23%, 16%);
+  @media (max-width:375px){
+    margin-top: 10rem;
+  }
+}
+
+.Card{
+  display: flex;
+  flex-direction: column;
+  height: 22rem;
+  width: 40rem;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 15px;
+  @media (max-width:375px) {
+    height: 20rem;
+    width: 20rem;
+
+  }
+}
+.manrope-fonts {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.Top-Card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.Heading{
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  color: hsl(150, 100%, 66%);
+  margin-top: 3rem;
+  text-align: center;
+  @media (max-width:375px) {
+    font-size: 10px;
+  }
+}
+
+.Content{
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+  padding-left: 4rem;
+  padding-right: 4rem;
+  @media (max-width:375px) {
+    font-size: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 900;
+  }
+}
+
+.Bottom-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Divider{
+  position: fixed;
+  margin-top: 3rem;
+  @media (max-width:375px){
+    transform: scale(.66);
+  }
+}
+
+.Button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem ;
+}
+
+.Circle{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: fixed;
+  cursor: pointer;
+  background-color: hsl(150, 100%, 66%);
+  @media (max-width:375px) {
+    height: 60px;
+    width: 60px;
+  }
+  
+}
+
+img{
+  position: relative;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  @media (max-width:375px) {
+    height: 25px;
+    width: 25px;
+  }
+  
+}
+img:hover{
+  box-shadow: rgba(0, 255, 127, 1)0 0 90px 20px;
+}
+
+
+.Circle:hover{
+  box-shadow: rgba(0, 255, 127, 1)0 0 90px 5px;
+}
+
+
+
