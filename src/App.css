@@ -2,7 +2,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20rem;
+  margin-top: 14rem;
   background-color: hsl(218, 23%, 16%);
   @media (max-width:375px){
     margin-top: 10rem;
